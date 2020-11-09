@@ -1,0 +1,44 @@
+#services {
+  background: #0f002b;
+  padding-top: 50px;
+  text-align: center;
+  background-image: url("https://i.imgur.com/1IpodUUh.jpg");
+  /* Parallax Effect */
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services p:nth-child(1) {
+  font-weight: bold;
+  font-size: 35px;
+  color: #19ccef;
+}
+
+.subtitle {
+  font-size: 50px;
+  color: #fe03a6;
+  letter-spacing: 5px;
+  font-family: "Pacifico", cursive;
+  padding-bottom: 30px;
+}
+
+.work-icon {
+  color: #19ccef;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.child {
+  flex: 0 1 100px;
+  padding: 10px;
+  text-align: center;
+}
